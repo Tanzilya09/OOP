@@ -7,8 +7,8 @@ int main() {
     char ch;
     etype slovo;
 
-    std::cout << "Введите первую букву должности (laborer, secretary, manager, accountant, executive, researcher): ";
-    std::cin >> ch;
+    cout << "Введите первую букву должности (laborer, secretary, manager, accountant, executive, researcher): ";
+    cin >> ch;
 
     switch (ch) {
     case 'l': slovo = laborer; break;
